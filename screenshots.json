@@ -48,9 +48,9 @@
     "images": ["images/media_landscape_xy.png", "images/media_landscape_maps.png"],
     "title": "Media Landscape",
     "description": "Interactive country-level dashboard to explore public data that may inform the media landscape",
-    "purpose": "Improved leadership interactions with Congress members",
+    "purpose": "Improved analysts' understanding of potential metrics that affect the media landscape",
     "industry": "Media",
-    "tools": ["SQL Server", "Power BI", "Flaticon", "Adobe Analytics"],
+    "tools": ["SQL Server", "Power BI", "Flaticon", "Adobe Analytics", "Emplifi"],
     "visuals": ["Table"]
   },
   {
