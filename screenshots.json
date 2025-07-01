@@ -51,7 +51,7 @@
     "purpose": "Improved analysts' understanding of potential metrics that affect the media landscape",
     "industry": "Media",
     "tools": ["SQL Server", "Power BI", "Flaticon", "Adobe Analytics", "Emplifi"],
-    "visuals": ["Table"]
+    "visuals": ["Table", "Scatter", "Map"]
   },
   {
     "images": ["images/editorials_digital_analytics.png"],
