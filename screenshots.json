@@ -9,7 +9,7 @@
     "visuals": ["Line", "Table", "Card", "Map"]
   },
   {
-    "images": ["images/impact_model1.png", "images/impact_model2.png", "images/impact_model3.png", "images/impact_model4.png", "images/impact_model4.png"],
+    "images": ["images/impact_model1.png", "images/impact_model2.png", "images/impact_model3.png", "images/impact_model4.png", "images/impact_model5.png"],
     "title": "Key Digital Performance Metrics",
     "description": "Interactive dashboard for key digital performance metrics, aggregating across accounts and platforms",
     "purpose": "Improved real-time performance metrics reporting to support leadership, strategy and operations decisions",
@@ -51,7 +51,7 @@
     "purpose": "Automated the analysis of a long-held executive question about potential duplication, used for public and executive stakeholder reporting",
     "industry": "Media",
     "tools": ["SQL Server", "R Shiny", "Flaticon"],
-    "visuals": ["Card", "Website"]
+    "visuals": ["Card", "Webpage"]
   },
   {
     "images": ["images/media_landscape_xy.png", "images/media_landscape_maps.png", "images/media_landscape_maps2.png", "images/media_landscape_table.png", "images/media_landscape_engagements_vs_competitors.png", "images/media_landscape_info.png"],
