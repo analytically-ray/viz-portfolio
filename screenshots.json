@@ -54,13 +54,22 @@
     "visuals": ["Table", "Scatter", "Map"]
   },
   {
-    "images": ["images/content_analysis_category.png", "images/content_analysis_topic.png", "images/content_analysis_article.png"],
+    "images": ["images/content_analysis_category.png", "images/content_analysis_topic.png", "images/content_analysis_article.png", "images/content_analysis_article_content.png", "images/content_analysis_info.png"],
     "title": "Media Content Categorization and Analysis",
     "description": "Interactive article categorization and content analysis, including article views and word clouds",
     "purpose": "Improved network service understanding of content frequency and audience interests",
     "industry": "Media",
     "tools": ["SQL Server", "Power BI", "Flaticon", "Adobe Analytics", "TextRazor"],
     "visuals": ["Table", "Bar", "Word Cloud"]
+  },
+  {
+    "images": ["images/database_health_check_table.png", "images/database_health_check_table_vars.png", "images/database_health_check_social_media_accounts.png"],
+    "title": "Database Health Check: Tables and Accounts",
+    "description": "Interactive dashboard listing every performance and metric data table and social media accounts to verify the health of the data, including earliest data, latest data, number of days, number of records, and totals",
+    "purpose": "Improved data operations by democratizing database health for all stakeholders",
+    "industry": "Media",
+    "tools": ["SQL Server", "Power BI", "Flaticon", "Adobe Analytics", "Emplifi"],
+    "visuals": ["Table", "Bar"]
   },
   {
     "images": ["images/editorials_digital_analytics.png"],
@@ -218,7 +227,7 @@
   {
     "images": ["images/distribution_visualization_tool.png"],
     "title": "Statistical Distribution Visualization Tool",
-    "description": "Interactive custom R Shiny app to explore and visualize typical distributions observed in test science, allowing user-selected options on distribution, mean, standard deviation and displaying probability density, histogram and cumulative distribution (https://rshinyapps.shinyapps.io/Distribution_Visualization)",
+    "description": "Interactive custom R Shiny app to explore and visualize typical distributions observed in test science, allowing user-selected options on distribution, mean, standard deviation and displaying probability density, histogram and cumulative distribution (<a href="https://rshinyapps.shinyapps.io/Distribution_Visualization">rshinyapps.shinyapps.io/Distribution_Visualization</a>)",
     "purpose": "Enhanced analytical capabilities and understanding of statistical concepts for the test science community",
     "industry": "Statistics",
     "tools": ["R"],
