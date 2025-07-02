@@ -18,7 +18,7 @@
     "visuals": ["Table"]
   },
   {
-    "images": ["images/surveys_international.png", "images/surveys_international_demogs.png", "images/surveys_international_media_use.png", "images/surveys_international_info.png"],
+    "images": ["images/surveys_international.png", "images/surveys_international_demog.png", "images/surveys_international_media_use.png", "images/surveys_international_info.png"],
     "title": "International Audience Reach Surveys",
     "description": "Interactive dashboard visualizing aggregated reach by country and factors such as demographics, network, media use, competitors",
     "purpose": "Technical solution brought in house resulting in centralization, standardization, scalability, faster reporting times, and saved costs",
@@ -45,6 +45,15 @@
     "visuals": ["Table"]
   },
   {
+    "images": ["images/content_similarity.png"],
+    "title": "News Content Similarity Analysis",
+    "description": "Text similarity analysis and custom R Shiny app using cosine similarity between articles to quantify potential journalistic duplication, collaboration and content propogation",
+    "purpose": "Automated the analysis of a long-held executive question about potential duplication, used for public and executive stakeholder reporting",
+    "industry": "Media",
+    "tools": ["SQL Server", "R Shiny", "Flaticon"],
+    "visuals": ["Card", "Website"]
+  },
+  {
     "images": ["images/media_landscape_xy.png", "images/media_landscape_maps.png", "images/media_landscape_maps2.png", "images/media_landscape_table.png", "images/media_landscape_engagements_vs_competitors.png", "images/media_landscape_info.png"],
     "title": "Media Landscape",
     "description": "Interactive country-level dashboard to explore public data that may inform the media landscape",
@@ -63,6 +72,15 @@
     "visuals": ["Table", "Bar", "Word Cloud"]
   },
   {
+    "images": ["images/web_traffic_city_event_analysis.png", "images/web_traffic_city_event_analysis2.png", "images/web_traffic_city_event_analysis3.png"],
+    "title": "Web Traffic Analysis of Cities in Ukraine, Poland and Germany after the Russian Invasion of Ukraine",
+    "description": "Custom R Shiny app showing city-level web traffic in Ukraine, Poland and Germany increasing as a result of the Russian invasion of Ukraine",
+    "purpose": "Demonstrated analytical and app development capabilities for advanced ad hoc and event-based analyses",
+    "industry": "Media",
+    "tools": ["SQL Server", "R Shiny", "Flaticon", "Adobe Analytics"],
+    "visuals": ["Table", "Bar"]
+  },
+  {
     "images": ["images/database_health_check_table.png", "images/database_health_check_table_vars.png", "images/database_health_check_social_media_accounts.png", "images/database_health_check_social_media_engagements.png"],
     "title": "Database Health Check: Tables and Accounts",
     "description": "Interactive dashboard listing every performance and metric data table and social media accounts to verify the health of the data, including earliest data, latest data, number of days, number of records, engagements, and totals",
@@ -78,6 +96,15 @@
     "purpose": "Strengthened stakeholder relations and built a custom solution based on stakeholder needs and iterative improvements to enhance digital insights and provide operations support",
     "industry": "Media",
     "tools": ["SQL Server", "Power BI", "Flaticon", "Adobe Analytics", "Emplifi"],
+    "visuals": ["Card", "Table", "Bar"]
+  },
+  {
+    "images": ["images/segment_traffic.png", "images/segment_traffic_tor.png"],
+    "title": "Web Traffic Access Using Specific Tools and Tor",
+    "description": "Custom web traffic dashboard by a stakeholder-defined segment using specific tools and the Tor browser",
+    "purpose": "Improved real-time performance insights to support leadership, strategy and operations decisions",
+    "industry": "Media",
+    "tools": ["SQL Server", "Power BI", "Flaticon", "Adobe Analytics"],
     "visuals": ["Card", "Table", "Bar"]
   },
   {
