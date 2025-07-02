@@ -1,17 +1,8 @@
 [
   {
-    "images": ["images/network_topline_web_metrics.png"],
-    "title": "Network-Level Topline Digital Metrics",
-    "description": "Interactive dashboard for network-level performance for web and podcast traffic and social media engagement (Facebook, X, YouTube, Instagram, TikTok, Telegram)",
-    "purpose": "Improved real-time performance insights to support leadership, strategy and operations decisions",
-    "industry": "Media",
-    "tools": ["SQL Server", "Power BI", "Flaticon", "Adobe Analytics", "Emplifi", "TGStat", "RSS Insight", "Blubrry"],
-    "visuals": ["Line", "Table", "Card", "Map"]
-  },
-  {
-    "images": ["images/service_topline_web.png", "images/service_topline_web_country.png", "images/service_topline_fb.png", "images/service_topline_x.png", "images/service_topline_yt.png", "images/service_topline_ig.png", "images/service_topline_tt.png", "images/service_topline_podcast.png"],
-    "title": "Service-Level Topline Digital Metrics",
-    "description": "Interactive dashboard for service-level performance for web and podcast traffic and social media engagement (Facebook, X, YouTube, Instagram, TikTok, Telegram)",
+    "images": ["images/network_topline_web_metrics.png", "images/service_topline_web.png", "images/service_topline_web_country.png", "images/service_topline_fb.png", "images/service_topline_x.png", "images/service_topline_yt.png", "images/service_topline_ig.png", "images/service_topline_tt.png", "images/service_topline_podcast.png"],
+    "title": "Topline Digital Metrics",
+    "description": "Aggregated performance time history for web and podcast traffic and social media engagement (Facebook, X, YouTube, Instagram, TikTok, Telegram)",
     "purpose": "Improved real-time performance insights to support leadership, strategy and operations decisions",
     "industry": "Media",
     "tools": ["SQL Server", "Power BI", "Flaticon", "Adobe Analytics", "Emplifi", "TGStat", "RSS Insight", "Blubrry"],
@@ -21,10 +12,19 @@
     "images": ["images/impact_model1.png", "images/impact_model2.png", "images/impact_model3.png", "images/impact_model4.png", "images/impact_model4.png"],
     "title": "Key Digital Performance Metrics",
     "description": "Interactive dashboard for key digital performance metrics, aggregating across accounts and platforms",
-    "purpose": "Improved real-time performance insights to support leadership, strategy and operations decisions",
+    "purpose": "Improved real-time performance metrics reporting to support leadership, strategy and operations decisions",
     "industry": "Media",
     "tools": ["SQL Server", "Power BI", "Flaticon", "Adobe Analytics", "Emplifi", "RSS Insight", "Blubrry"],
     "visuals": ["Table"]
+  },
+  {
+    "images": ["images/survey_international.png", "images/survey_international_demogs.png", "images/survey_international_media_use.png", "images/survey_international_info.png"],
+    "title": "International Audience Reach Surveys",
+    "description": "Interactive dashboard visualizing aggregated reach by country and factors such as demographics, network, media use, competitors",
+    "purpose": "Technical solution brought in house resulting in centralization, standardization, scalability, faster reporting times, and saved costs",
+    "industry": "Media",
+    "tools": ["SQL Server", "Power BI", "Flaticon", "SPSS"],
+    "visuals": ["Table", "Bar", "Map"]
   },
   {
     "images": ["images/competitor_topline_web.png", "images/competitor_topline_web_country.png", "images/competitor_topline_facebook.png", "images/competitor_topline_youtube.png"],
@@ -70,6 +70,15 @@
     "industry": "Media",
     "tools": ["SQL Server", "Power BI", "Flaticon", "Adobe Analytics", "Emplifi"],
     "visuals": ["Table", "Bar"]
+  },
+  {
+    "images": ["images/reach_engagement_tracker.png", "images/reach_engagement_tracker_content.png", "images/reach_engagement_tracker_web.png", "images/reach_engagement_tracker_referrer.png", "images/reach_engagement_tracker_table.png"],
+    "title": "Digital Reach and Social Media Engagement Tracker",
+    "description": "Custom reach and engagement tracker based on iterative stakeholder feedback displaying customer's digital accounts, content and custom performance metrics across accounts and platforms",
+    "purpose": "Strengthened stakeholder relations and built a custom solution based on stakeholder needs and iterative improvements to enhance digital insights and provide operations support",
+    "industry": "Media",
+    "tools": ["SQL Server", "Power BI", "Flaticon", "Adobe Analytics", "Emplifi"],
+    "visuals": ["Card", "Table", "Bar"]
   },
   {
     "images": ["images/editorials_digital_analytics.png"],
@@ -194,7 +203,7 @@
     "description": "Interactive dashboard to select state, county and/or power plant to visualize the capacity by technology and monthly generation and consumption",
     "purpose": "Demonstrated to leadership the potential of Tableau to visualize existing EIA data",
     "industry": "Energy",
-    "tools": ["HTML"],
+    "tools": ["Oracle SQL", "Tableau"],
     "visuals": ["Map", "Table", "Bar"]
   },
   {
@@ -227,7 +236,7 @@
   {
     "images": ["images/distribution_visualization_tool.png"],
     "title": "Statistical Distribution Visualization Tool",
-    "description": "Interactive custom R Shiny app to explore and visualize typical distributions observed in test science, allowing user-selected options on distribution, mean, standard deviation and displaying probability density, histogram and cumulative distribution (<a href='https://rshinyapps.shinyapps.io/Distribution_Visualization'>rshinyapps.shinyapps.io/Distribution_Visualization</a>)",
+    "description": "Interactive custom R Shiny app to explore and visualize typical distributions observed in test science, allowing user-selected options on distribution, mean, standard deviation and displaying probability density, histogram and cumulative distribution (https://rshinyapps.shinyapps.io/Distribution_Visualization)",
     "purpose": "Enhanced analytical capabilities and understanding of statistical concepts for the test science community",
     "industry": "Statistics",
     "tools": ["R"],
