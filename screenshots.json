@@ -63,9 +63,9 @@
     "visuals": ["Table", "Bar", "Word Cloud"]
   },
   {
-    "images": ["images/database_health_check_table.png", "images/database_health_check_table_vars.png", "images/database_health_check_social_media_accounts.png"],
+    "images": ["images/database_health_check_table.png", "images/database_health_check_table_vars.png", "images/database_health_check_social_media_accounts.png", "images/database_health_check_social_media_engagements.png"],
     "title": "Database Health Check: Tables and Accounts",
-    "description": "Interactive dashboard listing every performance and metric data table and social media accounts to verify the health of the data, including earliest data, latest data, number of days, number of records, and totals",
+    "description": "Interactive dashboard listing every performance and metric data table and social media accounts to verify the health of the data, including earliest data, latest data, number of days, number of records, engagements, and totals",
     "purpose": "Improved data operations by democratizing database health for all stakeholders",
     "industry": "Media",
     "tools": ["SQL Server", "Power BI", "Flaticon", "Adobe Analytics", "Emplifi"],
