@@ -9,7 +9,7 @@
     "visuals": ["Line", "Table", "Card", "Map"]
   },
   {
-    "images": ["images/service_topline_web.png", "images/service_topline_web_country.png", "images/service_topline_fb.png", "images/service_topline_podcast.png"],
+    "images": ["images/service_topline_web.png", "images/service_topline_web_country.png", "images/service_topline_fb.png", "images/service_topline_x.png", "images/service_topline_yt.png", "images/service_topline_ig.png", "images/service_topline_tt.png", "images/service_topline_podcast.png"],
     "title": "Service-Level Topline Digital Metrics",
     "description": "Interactive dashboard for service-level performance for web and podcast traffic and social media engagement (Facebook, X, YouTube, Instagram, TikTok, Telegram)",
     "purpose": "Improved real-time performance insights to support leadership, strategy and operations decisions",
@@ -45,13 +45,22 @@
     "visuals": ["Table"]
   },
   {
-    "images": ["images/media_landscape_xy.png", "images/media_landscape_maps.png"],
+    "images": ["images/media_landscape_xy.png", "images/media_landscape_maps.png", "images/media_landscape_maps2.png", "images/media_landscape_table.png", "images/media_landscape_engagements_vs_competitors.png", "images/media_landscape_info.png"],
     "title": "Media Landscape",
     "description": "Interactive country-level dashboard to explore public data that may inform the media landscape",
     "purpose": "Improved analysts' understanding of potential metrics that affect the media landscape",
     "industry": "Media",
     "tools": ["SQL Server", "Power BI", "Flaticon", "Adobe Analytics", "Emplifi"],
     "visuals": ["Table", "Scatter", "Map"]
+  },
+  {
+    "images": ["images/content_analysis_category.png", "images/content_analysis_topic.png", "images/content_analysis_article.png"],
+    "title": "Media Content Categorization and Analysis",
+    "description": "Interactive article categorization and content analysis, including article views and word clouds",
+    "purpose": "Improved network service understanding of content frequency and audience interests",
+    "industry": "Media",
+    "tools": ["SQL Server", "Power BI", "Flaticon", "Adobe Analytics", "TextRazor"],
+    "visuals": ["Table", "Bar", "Word Cloud"]
   },
   {
     "images": ["images/editorials_digital_analytics.png"],
@@ -205,5 +214,14 @@
     "industry": "Energy",
     "tools": ["Oracle SQL", "Tableau"],
     "visuals": ["Map", "Line", "Table"]
+  },
+  {
+    "images": ["images/distribution_visualization_tool.png"],
+    "title": "Statistical Distribution Visualization Tool",
+    "description": "Interactive custom R Shiny app to explore and visualize typical distributions observed in test science, allowing user-selected options on distribution, mean, standard deviation and displaying probability density, histogram and cumulative distribution (https://rshinyapps.shinyapps.io/Distribution_Visualization)",
+    "purpose": "Enhanced analytical capabilities and understanding of statistical concepts for the test science community",
+    "industry": "Statistics",
+    "tools": ["R"],
+    "visuals": ["Line", "Bar"]
   }
 ]
