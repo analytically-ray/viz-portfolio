@@ -18,7 +18,7 @@
     "visuals": ["Table"]
   },
   {
-    "images": ["images/survey_international.png", "images/survey_international_demogs.png", "images/survey_international_media_use.png", "images/survey_international_info.png"],
+    "images": ["images/surveys_international.png", "images/surveys_international_demogs.png", "images/surveys_international_media_use.png", "images/surveys_international_info.png"],
     "title": "International Audience Reach Surveys",
     "description": "Interactive dashboard visualizing aggregated reach by country and factors such as demographics, network, media use, competitors",
     "purpose": "Technical solution brought in house resulting in centralization, standardization, scalability, faster reporting times, and saved costs",
