@@ -227,7 +227,7 @@
   {
     "images": ["images/distribution_visualization_tool.png"],
     "title": "Statistical Distribution Visualization Tool",
-    "description": "Interactive custom R Shiny app to explore and visualize typical distributions observed in test science, allowing user-selected options on distribution, mean, standard deviation and displaying probability density, histogram and cumulative distribution (<a href="https://rshinyapps.shinyapps.io/Distribution_Visualization">rshinyapps.shinyapps.io/Distribution_Visualization</a>)",
+    "description": "Interactive custom R Shiny app to explore and visualize typical distributions observed in test science, allowing user-selected options on distribution, mean, standard deviation and displaying probability density, histogram and cumulative distribution (<a href='https://rshinyapps.shinyapps.io/Distribution_Visualization'>rshinyapps.shinyapps.io/Distribution_Visualization</a>)",
     "purpose": "Enhanced analytical capabilities and understanding of statistical concepts for the test science community",
     "industry": "Statistics",
     "tools": ["R"],
