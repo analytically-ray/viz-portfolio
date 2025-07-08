@@ -6,7 +6,7 @@
     "purpose": "Improved real-time performance insights to support leadership, strategy and operations decisions",
     "industry": "Media",
     "tools": ["SQL Server", "Power BI", "Flaticon", "Adobe Analytics", "Emplifi", "TGStat", "RSS Insight", "Blubrry"],
-    "visuals": ["Line", "Table", "Card", "Map"]
+    "visuals": ["Line", "Table", "Card", "Map", "Flow"]
   },
   {
     "images": ["images/impact_model1.png", "images/impact_model2.png", "images/impact_model3.png", "images/impact_model4.png", "images/impact_model5.png"],
@@ -18,13 +18,13 @@
     "visuals": ["Table"]
   },
   {
-    "images": ["images/surveys_international.png", "images/surveys_international_demog.png", "images/surveys_international_media_use.png", "images/surveys_international_info.png"],
+    "images": ["images/surveys_international.png", "images/surveys_international_flow.png", "images/surveys_international_demog.png", "images/surveys_international_media_use.png", "images/surveys_international_info.png"],
     "title": "International Audience Reach Surveys",
     "description": "Interactive dashboard visualizing aggregated reach by country and factors such as demographics, network, media use, competitors",
     "purpose": "Technical solution brought in house resulting in centralization, standardization, scalability, faster reporting times, and saved costs",
     "industry": "Media",
     "tools": ["SQL Server", "Power BI", "Flaticon", "SPSS"],
-    "visuals": ["Table", "Bar", "Map"]
+    "visuals": ["Table", "Bar", "Map", "Flow"]
   },
   {
     "images": ["images/competitor_topline_web.png", "images/competitor_topline_web_country.png", "images/competitor_topline_facebook.png", "images/competitor_topline_youtube.png"],
