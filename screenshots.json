@@ -126,7 +126,7 @@
     "visuals": ["Map", "Table"]
   },
   {
-    "images": ["images/rtoportal_MISO_operations_mark.png", "images/rtoportal_flow.png", "images/rtoportal1.png", "images/rtoportal2.png", "images/rtoportal3.png"],
+    "images": ["images/rtoportal_MISO_operations.png", "images/rtoportal_flow.png", "images/rtoportal1.png", "images/rtoportal2.png", "images/rtoportal3.png"],
     "title": "Wholesale Electricity Market and Operations Data Product",
     "description": "Wholesale electricity market and operations data product including 7 interactive regional dashboards (generation, load, temperatures, prices) and main navigation web page with expandable menus",
     "purpose": "Prototype dashboard, main page and navigation for a new data product published on the EIA website for public consumption",
