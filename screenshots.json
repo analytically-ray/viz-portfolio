@@ -273,9 +273,18 @@
     "images": ["images/thesis_mt_stresses.png"],
     "title": "Thesis Research on Simulated Metatarsal Stresses compared with Clinical Stress Fractures",
     "description": "Data visualization from thesis research of finite element analysis simulation results showing stresses along the dorsal (top) and plantar (bottom) sides of the metatarsal long bones of the foot compared with the location of minimum cross-sectional diameter",
-    "purpose": "Thesis research to improve understanding of stresses on metatarsal bones and how it may affect location of stress fractures",
+    "purpose": "Thesis research to improve understanding of stresses on metatarsal bones and how it may affect location of stress fractures, potentially predicting stress fracture location and presence based on anatomy",
     "industry": "Biomedical",
     "tools": ["MATLAB", "ANSYS", "SolidWorks"],
+    "visuals": ["Line", "CAD", "FEA"]
+  },
+  {
+    "images": ["images/thesis_scaphoid_sim.png", "images/thesis_scaphoid_sim_results.png"],
+    "title": "Thesis Research on Scaphoid Fixation",
+    "description": "Data visualization from thesis research of finite element analysis simulation results showing stresses and stress decay between fractured scaphoid fragments in the hand during scaphoid fixation",
+    "purpose": "Thesis research to improve understanding of stresses on scaphoid bone fragments and how it compares to experimental results and design changes, potentially improving healing",
+    "industry": "Biomedical",
+    "tools": ["MATLAB", "ANSYS", "Pro/Engineer"],
     "visuals": ["Line", "CAD", "FEA"]
   },
   {
