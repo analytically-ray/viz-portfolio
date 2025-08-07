@@ -135,9 +135,11 @@
 
                 <!-- Title Free-Text Search -->
                 <div>
-                    <label for="search-title" class="block text-gray-700 text-sm font-bold mb-2">Search Title:</label>
-                    <input type="text" id="search-title" placeholder="e.g., Dashboard, Report" class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline hover:border-blue-500 transition-all duration-200">
-                </div>
+                    <label for="search-input" class="block text-gray-700 text-sm font-bold mb-2">Search Project Descriptions:</label>
+                    <input type="text" id="search-input" placeholder="Search title or description..." 
+                           class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline hover:border-blue-500 transition-all duration-200">
+                  </div>
+                  
             </div>
 
             <div class="flex justify-center">
@@ -215,7 +217,7 @@
         const filterIndustrySelect = document.getElementById('filter-industry');
         const filterToolsSelect = document.getElementById('filter-tools');
         const filterVisualsSelect = document.getElementById('filter-visuals');
-        const searchTitleInput = document.getElementById('search-title');
+        const searchDescriptionInput = document.getElementById('search-input');
         const resetFiltersBtn = document.getElementById('reset-filters');
 
         // --- Functions ---
@@ -344,7 +346,7 @@
             const selectedIndustry = filterIndustrySelect.value;
             const selectedTool = filterToolsSelect.value;
             const selectedVisual = filterVisualsSelect.value;
-            const searchText = searchTitleInput.value.toLowerCase().trim();
+            const searchText = searchDescriptionInput.value.toLowerCase().trim();
 
             const filteredData = screenshotsData.filter(item => {
                 // Industry Filter
@@ -357,10 +359,14 @@
                 const visualsMatch = !selectedVisual || (Array.isArray(item.visuals) && item.visuals.includes(selectedVisual));
 
                 // Title Text Search (case-insensitive, partial match)
-                const titleMatch = !searchText || item.title.toLowerCase().includes(searchText);
+                const descriptionMatch = !searchText || (
+                    item.title.toLowerCase().includes(searchText) ||
+                    item.description?.toLowerCase().includes(searchText) ||
+                    item.purpose?.toLowerCase().includes(searchText)
+                );
 
                 // All conditions must be true for the item to be included
-                return industryMatch && toolsMatch && visualsMatch && titleMatch;
+                return industryMatch && toolsMatch && visualsMatch && descriptionMatch;
             });
 
             renderPortfolio(filteredData);
@@ -374,7 +380,7 @@
             filterIndustrySelect.value = '';
             filterToolsSelect.value = '';
             filterVisualsSelect.value = '';
-            searchTitleInput.value = '';
+            searchDescriptionInput.value = '';
             applyFilters();
         }
 
@@ -466,13 +472,13 @@
         }
 
         // --- Event Listeners ---
+        
         // Listen for changes on filter dropdowns
         filterIndustrySelect.addEventListener('change', applyFilters);
         filterToolsSelect.addEventListener('change', applyFilters);
         filterVisualsSelect.addEventListener('change', applyFilters);
+        searchDescriptionInput.addEventListener('input', applyFilters);
 
-        // Listen for input (typing) in the search box
-        searchTitleInput.addEventListener('input', applyFilters);
 
         // Listen for reset button click
         resetFiltersBtn.addEventListener('click', resetFilters);
